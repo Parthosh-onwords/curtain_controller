@@ -131,7 +131,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               onTap: () {
                 setState(() {
-                  // print("hey iam working value:$closeValue");
+                  // print("hey iam working value:$closeValue");...
                   pauseValue = !pauseValue;
                   http.put(
                     Uri.parse('http://192.168.1.18/sensor/2/'),
